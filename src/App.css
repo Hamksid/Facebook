@@ -1,38 +1,191 @@
-.App {
+.App{
+  background: #f0f2f5;
+  width: 100%;
+  height: 100vh;
+}
+
+.polo{
   text-align: center;
+  color: #1877f2;
+  font-size:3rem;
+  margin-top: 0px;
+  padding-top: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#Container{
+  background: white;
+  box-shadow: -4px 7px 16px 8px rgba(0, 0, 0, .1), 0px 6px 5px 5px rgba(0, 0, 0, .1);
+  padding-top: 20px;
+  margin: auto;
+  width: 30%;
+  border-radius: 8px;
+  height: 62vh;
+}
+#Text{
+  font-size: 25px;
+ text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#input input{
+  padding: 15px;
+  width: 80%;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 5%;
+  border-radius: 5px;
+  outline: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+#Login input{
+  padding: 15px;
+  width: 89%;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 5%;
+  border-radius: 5px;
   color: white;
+  font-size: 20px;
+  background: #1877f2;
+  border: none;
 }
 
-.App-link {
-  color: #61dafb;
+#Ancor a:hover{
+  text-decoration: underline;
+}
+#Ancor a{
+  text-decoration: none;
+  color: #1877f2;
+  font-size: 15px;
+}
+#Ancor {
+  text-align: center;
+  margin-top: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#Or h1{
+  margin: auto;
+  width: 40%;
+  background: rgb(28, 27, 27);
+  height: 1px;
+}
+
+#Or{
+  display: flex;
+  align-items: center;
+}
+#Create input{
+  padding: 15px;
+  width:65%;
+  margin-left: 20%;
+  font-size: 20px;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  background: #42b72a;
+  border: none;
+}
+
+
+@media (max-width:1200px) {
+#Container{
+  background: white;
+  box-shadow: -4px 7px 16px 8px rgba(0, 0, 0, .1), 0px 6px 5px 5px rgba(0, 0, 0, .1);
+  padding-top: 20px;
+  margin: auto;
+  width: 35%;
+  border-radius: 8px;
+  height: 98%;
+}
+}
+
+@media (max-width:800px) {
+#Container{
+  background: white;
+  box-shadow: -4px 7px 16px 8px rgba(0, 0, 0, .1), 0px 6px 5px 5px rgba(0, 0, 0, .1);
+  padding-top: 20px;
+  margin: auto;
+  width: 40%;
+  border-radius: 8px;
+  height: 80vh;
+}
+#Create input{
+  padding: 15px;
+  width:70%;
+  margin-left: 15%;
+  font-size: 15px;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  background: #42b72a;
+  border: none;
+}
+}
+
+@media (max-width:690px) {
+#Container{
+  background: white;
+  box-shadow: -4px 7px 16px 8px rgba(0, 0, 0, .1), 0px 6px 5px 5px rgba(0, 0, 0, .1);
+  padding-top: 20px;
+  margin: auto;
+  width: 50%;
+  border-radius: 8px;
+  height: 80vh;
+}
+#Create input{
+  padding: 15px;
+  width:70%;
+  margin-left: 15%;
+  font-size: 15px;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  background: #42b72a;
+  border: none;
+}
+}
+
+@media (max-width:500px) {
+#Container{
+  background: white;
+  box-shadow: -4px 7px 16px 8px rgba(0, 0, 0, .1), 0px 6px 5px 5px rgba(0, 0, 0, .1);
+  padding-top: 20px;
+  margin: auto;
+  width: 60%;
+  border-radius: 8px;
+  height: 80vh;
+}
+#Create input{
+  padding: 15px;
+  width:70%;
+  margin-left: 15%;
+  font-size: 15px;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  background: #42b72a;
+  border: none;
+}
+}
+
+@media (max-width:450px) {
+#Container{
+  background: white;
+  box-shadow: -4px 7px 16px 8px rgba(0, 0, 0, .1), 0px 6px 5px 5px rgba(0, 0, 0, .1);
+  padding-top: 20px;
+  margin: auto;
+  width: 80%;
+  border-radius: 8px;
+  height: 80vh;
+}
+#Create input{
+  padding: 15px;
+  width:70%;
+  margin-left: 15%;
+  font-size: 15px;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  background: #42b72a;
+  border: none;
+}
 }
